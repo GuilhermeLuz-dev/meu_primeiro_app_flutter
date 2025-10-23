@@ -1,0 +1,14 @@
+{
+  "name": "Flutter-Codespace-UNEX",
+  "image": "cirrusci/flutter:stable",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.flutter",
+        "Dart-Code.dart-code"
+      ]
+    }
+  },
+  "forwardPorts": [3000],
+  "postCreateCommand": "flutter config --enable-web && flutter doctor"
+}
